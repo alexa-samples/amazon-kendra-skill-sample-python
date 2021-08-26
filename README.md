@@ -20,7 +20,8 @@ If you aren’t familiar with Alexa Skills, consider starting with the [Cake Tim
 
 ## Workshop
 
-<a href="#" class="button big">[Start Tutorial](Module-1/README.md)</a>
+<a href="#" class="button big">[Module 1](Module-1/README.md)</a>
+<a href="#" class="button big">[Module 2](Module-2/README.md)</a>
 
 ## Security
 
