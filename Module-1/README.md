@@ -47,3 +47,5 @@ return (
     Type your skill name into the text box. If you’re introducing your skill in LaunchRequestHandler, use the same name for the invocation and the way you introduce your skill in the `speak_output` variable. Then press the **Save Model** and **Build Model** buttons on the top of the page.
 
 6. When you get the notification that the full build was successful, go to the **Test** tab. In the dropdown menu at the top of the page, select **Development**. Try invoking your skill by saying or typing “Open” followed by your skill’s invocation name, e.g. “Open doc support”. Alexa should respond with the string you assigned to the `speak_output` variable. 
+
+<a href="#" class="button big">[Continue to Module 2](Module-2/README.md)</a>
