@@ -353,4 +353,4 @@ class CaptureQueryIntentHandler(AbstractRequestHandler):
 
     If you say yes after any query response, your skill should offer the option of asking a new question. If you say “ask another question”, Alexa should repeat your last query back to you, and then ask for your new question. 
     
-Continue to Module 4
+<a href="#" class="button big">[Continue to Module 4](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-4)</a>
