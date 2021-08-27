@@ -91,7 +91,7 @@ In the `kendra` variable, make sure your `region_name` variable is the same as t
 
 ```
 sts_client = boto3.client('sts')
-assumed_role_object = sts_client.assume_role(RoleArn="`<Your AWS resource role ARN>`", RoleSessionName="AssumeRoleSession1")
+assumed_role_object = sts_client.assume_role(RoleArn="<Your AWS resource role ARN>", RoleSessionName="AssumeRoleSession1")
 credentials = assumed_role_object['Credentials']
         
 kendra = boto3.client('kendra', 
