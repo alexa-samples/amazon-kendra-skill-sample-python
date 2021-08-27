@@ -559,4 +559,4 @@ The added `elif` statement creates a `query` variable when the handler is automa
 
 Remember that you can add `.set_should_end_session(False)` to the return lines in other handlers if you aren’t getting a response. 
 
-Continue to Module 5
+<a href="#" class="button big">[Continue to Module 5](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-5)</a>
