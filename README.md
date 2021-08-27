@@ -19,9 +19,13 @@ You will also need an Amazon Developer account to access the Alexa Developer Con
 If you aren’t familiar with Alexa Skills, consider starting with the [Cake Time tutorial](https://developer.amazon.com/en-US/alexa/alexa-skills-kit/get-deeper/tutorials-code-samples/build-an-engaging-alexa-skill) to learn about the different components of skill and practice building a simple skill. This tutorial will walk you through concepts like intents, slots, and handlers so you can jump into more complex concepts used in this skill. If you haven’t built a skill before, you will still be able to follow this tutorial.
 
 ## Workshop
+Once you've completed the prerequisites, you can <a href="#" class="button big">[start the tutorial here](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-1)</a>. Or, skip ahead to one of the modules below. 
 
-* <a href="#" class="button big">[Module 1](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-1)</a>
-* <a href="#" class="button big">[Module 2](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-2)</a>
+* <a href="#" class="button big">[Module 1: Creating your Skill](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-1)</a>
+* <a href="#" class="button big">[Module 2: Configuring Amazon Kendra](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-2)</a>
+* <a href="#" class="button big">[Module 3: Finding the right response](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-4)</a>
+* <a href="#" class="button big">[Module 4: Doing more with your skill](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-4)</a>
+
 
 ## Security
 
