@@ -23,9 +23,9 @@ Once you've completed the prerequisites, you can <a href="#" class="button big">
 
 * <a href="#" class="button big">[Module 1: Creating your Skill](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-1)</a>
 * <a href="#" class="button big">[Module 2: Configuring Amazon Kendra](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-2)</a>
-* <a href="#" class="button big">[Module 3: Finding the right response](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-4)</a>
+* <a href="#" class="button big">[Module 3: Finding the right response](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-3)</a>
 * <a href="#" class="button big">[Module 4: Doing more with your skill](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-4)</a>
-
+* <a href="#" class="button big">[Module 5: Improving user experience](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-5)</a>
 
 ## Security
 
