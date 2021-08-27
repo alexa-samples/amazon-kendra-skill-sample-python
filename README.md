@@ -20,8 +20,8 @@ If you aren’t familiar with Alexa Skills, consider starting with the [Cake Tim
 
 ## Workshop
 
-<a href="#" class="button big">[Module 1](Module-1/README.md)</a>
-<a href="#" class="button big">[Module 2](Module-2/README.md)</a>
+* <a href="#" class="button big">[Module 1](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-1)</a>
+* <a href="#" class="button big">[Module 2](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-2)</a>
 
 ## Security
 
