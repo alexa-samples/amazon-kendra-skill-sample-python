@@ -194,4 +194,4 @@ This enables you to access to the boto3 client to call Amazon Kendra.
 2. Lastly, scroll to the bottom of the file, and replace `sb.add_request_handler(HelloWorldIntentHandler())` with `sb.add_request_handler(CaptureQueryIntentHandler())` to register the handler with the right name. 
 3. Save and deploy your code, and then go to the **Test** tab. Open your skill and ask a question that can be found in your index. If you get a response, you’ve successfully queried your Amazon Kendra index with an Alexa Skill.
 
-<a href="#" class="button big">[Continue to Module 2](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-3)</a>
+<a href="#" class="button big">[Continue to Module 3](https://github.com/alexa-samples/amazon-kendra-skill-sample-python/tree/main/Module-3)</a>
