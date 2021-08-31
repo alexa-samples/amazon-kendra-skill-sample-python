@@ -1,4 +1,5 @@
 # Build an Alexa Skill that queries an Amazon Kendra index
+![68747470733a2f2f6d2e6d656469612d616d617a6f6e2e636f6d2f696d616765732f472f30312f6d6f62696c652d617070732f6465782f616c6578612f616c6578612d736b696c6c732d6b69742f7475746f7269616c732f7175697a2d67616d652f6865616465722e5f5454485f2e706e67](https://user-images.githubusercontent.com/88510702/131421474-b08b6f06-668f-48a4-a5e6-8394eff0ffb9.png)
 
 Amazon Kendra is a powerful machine learning tool that can query a set of documents or HTML files. This tutorial shows how to integrate this service with an Alexa Skill in Python to build a seamless voice experience for document queries. Previous experience with Python and the Alexa Skills Kit is helpful, but not required, to follow this tutorial. 
 
