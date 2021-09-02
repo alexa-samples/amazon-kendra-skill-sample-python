@@ -441,7 +441,7 @@ class SendEmailIntentHandler(AbstractRequestHandler):
 
 11. Save and deploy your code. 
 
-In order to test that the email function works, you can log onto the Alexa app with the same account you’re using for the developer console. Log into the app, go to the **More** tab, and then select **Skills & Games**. You should see your skill listed in the **Dev** tab. Select it, and in **Settings**, your skill should be requesting access to the First Name and Email associated with your account. Grant access, and then try testing your skill. If you receive an email, you’re good to go.
+In order to test that the email function works, you can log into the Alexa app with the same account you’re using for the developer console. Go to the **More** tab and select **Skills & Games**. You should see your skill listed in the **Dev** tab. Select it, and in **Settings**, your skill should be requesting access to the First Name and Email associated with your account. Grant access, and then try testing your skill. If you receive an email, you’re good to go.
 
 ## Adding yes or no questions
 
