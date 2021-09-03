@@ -294,7 +294,7 @@ Note that the attribute is added twice in the DOCUMENT code block; one for when 
 query_result = session_attr["QueryResult"]
 ```
 
-4. Another helpful addition to the email is the URI or URL of the document where the answer can be found. By default, an Amazon Kendra query result has an attribute called *DocumentURI* which stores the URI where the document is found. Depending on the data source you used to upload files to your index, this URI might not be available to the user. 
+4. Another helpful addition to the email is the URI or URL of the document where the answer can be found. By default, an Amazon Kendra query result has an attribute called **DocumentURI** which stores the URI where the document is found. Depending on the data source you used to upload files to your index, this URI might not be available to the user. 
 
 If you have URIs or URLs to send to the user, add them to the document attribute **DocumentURI**. For information on how to do this for different data sources, see [Creating custom document attributes](https://docs.aws.amazon.com/kendra/latest/dg/custom-attributes.html). 
 
