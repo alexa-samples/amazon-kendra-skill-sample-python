@@ -65,7 +65,7 @@ When you created your skill, a series of handlers that handle common user input 
 
 1. For example, in **HelpIntentHandler**, your skill will output "You can say hello to me! How can I help?" if the user says "help." 
 
-To ensure the user can get help and doesn’t get confused, update this variable. Below is an example; update it according to your Amazon Kendra index’s contents.
+To ensure the user can get help and doesn’t get confused, update this variable. Below is an example; update it according to the content in your Amazon Kendra index.
 
 ```
 speak_output = "You can ask me about AWS documentation. How can I help?"
