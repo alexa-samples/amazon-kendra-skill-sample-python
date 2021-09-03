@@ -165,12 +165,12 @@ sb = CustomSkillBuilder(api_client=DefaultApiClient())
 1. In your Skills Console, go to the Code tab and find the Integrate button along the top bar. Copy the **Role ARN**.
 2. Go to the [AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1) and navigate to the **IAM** page. Go to **Roles** on the left sidebar, and then select the **Create role** button. Select **AWS Service** under **Select type of trusted entity**, and then **Lambda** under **Common use cases**. Choose **Next: Permissions**.
 3. On the next page, use the search bar to find the **AmazonSNSFullAccess** policy and select it. Choose **Next: Tags** and then **Next: Review**. Create a name for your role, and then create your role. 
-4. Go back to the Roles page and select the role you just made. Select the **Trust relationships** tab and then **Edit trust relationship**. Find the line that says Service, add a comma at the end of it, press enter to go to a new line, and paste in this line.
+4. Go back to the Roles page and select the role you just made. Select the **Trust relationships** tab and then **Edit trust relationship**. Find the line that says Service, add a comma at the end of it, press enter to go to a new line, and paste in this line:
 ```
 "AWS": "<Replace with AWS Lambda Execution Role ARN from Alexa-hosted skill>"
 ```
 5. Paste the Role ARN you copied from the Skills Console where it says `<Replace with AWS Lambda Execution Role ARN from Alexa-hosted skill>`.
-6. The full trust relationship should now look like this.
+6. The full trust relationship should now look like this:
 ```
 {
   "Version": "2012-10-17",
