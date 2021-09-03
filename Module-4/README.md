@@ -152,7 +152,7 @@ from ask_sdk_core.skill_builder import CustomSkillBuilder
 from ask_sdk_core.api_client import DefaultApiClient
 ```
 
-You’ll also need to update this at the bottom of your code, where you register your handlers. Replace `sb = SkillBuilder()` with
+You’ll also need to update this at the bottom of your code, where you register your handlers. Replace `sb = SkillBuilder()` with this:
 ```
 sb = CustomSkillBuilder(api_client=DefaultApiClient())
 ```
