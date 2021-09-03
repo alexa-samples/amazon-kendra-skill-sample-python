@@ -8,7 +8,7 @@ Now that you’ve created an Amazon Kendra index and set up your developer accou
 
 3. Choose the **Custom model** for your skill, and the **Alexa-hosted (Python)** option for backend resources. Select **Create Skill** on the top of the page.
 
-4. On the next page select the **Start from Scratch** template, and then **Continue with Template**. This will give you a basic Python outline for your Lambda function. The skill will take a minute or so to create, and then you are ready to build!
+4. On the next page select the **Start from Scratch** template, and then **Continue with Template**. This will give you a basic Python outline for your Lambda function. The skill will take a minute or so to create, and then you are ready to build.
 
 ## Setting up your skill
 
