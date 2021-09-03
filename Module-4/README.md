@@ -132,7 +132,7 @@ class SendEmailIntentHandler(AbstractRequestHandler):
 
 This code gets user profile information via the [Alexa Service Clients](https://developer.amazon.com/en-US/docs/alexa/alexa-skills-kit-sdk-for-python/call-alexa-service-apis.html#serviceclientfactory) **ServiceClientFactory** and **UpsServiceClient** which can be used to query the Alexa Customer Profile API. If the user hasn’t given permissions to the requested information, your skill will ask them to do so in the Alexa app. 
 
-5. Scroll to the top of your code and find the line from `ask_sdk_model import Response`. Enter a new line below it, and paste this line in.
+5. Scroll to the top of your code and find the line from `ask_sdk_model import Response`. Enter a new line below it, and paste this line in:
 ```
 from ask_sdk_model.ui import SimpleCard, AskForPermissionsConsentCard
 ```
