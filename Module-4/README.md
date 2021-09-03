@@ -456,7 +456,7 @@ This handler now outputs a yes or no question to determine if the user would lik
 
 Now that another yes or no question is being asked, you need to update YesNoIntentHandler so it doesn’t repeat the same actions for different yes or no answers. You can do this by adding a session attribute that tracks the last handler that was triggered, so that your skill responds based on the question that the user is answering.
 
-2. Create an attribute called `LastHandler` to add to each of your handlers. Below the `speak_output` line you just added in SendEmailIntentHandler, add this line.
+2. Create an attribute called `LastHandler` to add to each of your handlers. Below the `speak_output` line you just added in SendEmailIntentHandler, add this line:
 ```
 session_attr["LastHandler"] = "email"
 ```
@@ -485,7 +485,7 @@ if (no and (session_attr["LastHandler"] == "capture query" or session_attr["Last
 
 7. Now you need to add code for what to do when the user answers the question in SendEmailIntentHandler, “Would you like to ask something else?”
 
-Enter a new line at the end of YesNoIntentHandler and paste in this code.
+Enter a new line at the end of YesNoIntentHandler and paste in this code:
 ```
 if (yes and session_attr["LastHandler"] == "email"): 
     session_attr["QueryStatus"] = "new query"
